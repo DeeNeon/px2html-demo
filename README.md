@@ -9,11 +9,10 @@ Convert the following designs to HTML/CSS/JS.
 ## Requirements
 
 1. Create project using [PX2HT Generator](https://github.com/Pixel2HTML/pixel2html-generator)
-2. You should use SASS, LESS or Stylus.
-3. Make it responsive by your best judgement.
-4. You should use [Slick.js](http://kenwheeler.github.io/slick/) for any 
+2. Make it responsive by your best judgement.
+3. You should use [Slick.js](http://kenwheeler.github.io/slick/) for any 
 carousel on the page.
-5. The font used is *Roboto*.
+5. The font used is for the whole site is **Roboto**.
 
 ### Bonus Tasks
 1. Code the HTML using Jade as template engine.
