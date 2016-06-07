@@ -8,13 +8,16 @@ Convert the following designs to HTML/CSS/JS.
 
 ## Requirements
 
-1.
-2.
-3.
-4.
-5.
+1. Create project using [PX2HT Generator](https://github.com/Pixel2HTML/pixel2html-generator)
+2. You should use SASS, LESS or Stylus.
+3. Make it responsive by your best judgement.
+4. You should use [Slick.js](http://kenwheeler.github.io/slick/) for any 
+carousel on the page.
 
-### Bonus Task
+### Bonus Tasks
+1. Code the HTML using Jade as template engine.
+2. Use [BEM methodology](https://en.bem.info/methodology/) and break the site 
+into modules.
 
 ## Download PSD / Sketch
 
