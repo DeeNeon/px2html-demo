@@ -2,7 +2,7 @@
 
 ## Project brief
 
-Convert the following designs to HTML/CSS/JS.
+Convert the following designs to HTML/CSS/JS. 
 
 ![preview](preview.png)
 
@@ -13,6 +13,7 @@ Convert the following designs to HTML/CSS/JS.
 3. Make it responsive by your best judgement.
 4. You should use [Slick.js](http://kenwheeler.github.io/slick/) for any 
 carousel on the page.
+5. The font used is *Roboto*.
 
 ### Bonus Tasks
 1. Code the HTML using Jade as template engine.
@@ -20,6 +21,14 @@ carousel on the page.
 into modules.
 
 ## Download PSD / Sketch
+
+You can either clone this repository:
+
+~~~
+$ git clone http://code.pixel2html.com/recruiting/frontend-developer-test.git
+~~~
+
+Or download it from this link: [test.sketch](http://code.pixel2html.com/recruiting/frontend-developer-test/blob/master/assets/test.sketch)
 
 ## Supported browsers
 
