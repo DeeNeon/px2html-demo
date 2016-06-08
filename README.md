@@ -2,22 +2,26 @@
 
 ## Project brief
 
-Convert the following designs to HTML/CSS/JS. 
+Convert the following designs to a beautiful responsive website.  
+The font used is for the whole site is 
+[Roboto](https://www.google.com/fonts#UsePlace:use/Collection:Roboto).
 
 ![preview](preview.png)
 
 ## Requirements
 
-1. Create project using [PX2HT Generator](https://github.com/Pixel2HTML/pixel2html-generator)
-2. Make it responsive by your best judgement.
-3. You should use [Slick.js](http://kenwheeler.github.io/slick/) for any 
-carousel on the page.
-5. The font used is for the whole site is **Roboto**.
+1. Make it responsive by your best judgement.
+2. Use [Slick.js](http://kenwheeler.github.io/slick/) for any carousel on the page.
 
-### Bonus Tasks
-1. Code the HTML using Jade as template engine.
-2. Use [BEM methodology](https://en.bem.info/methodology/) and break the site 
-into modules.
+### Nice to have
+
+Use [BEM methodology](https://en.bem.info/methodology/) for naming convention 
+and break the site into modules.
+
+### Bonus tasks
+
+1. Create project using [PX2HT Generator](https://github.com/Pixel2HTML/pixel2html-generator).
+2. We'd like to see you using Stylus/SASS/LESS for the CSS, show us your magic :)
 
 ## Download PSD / Sketch
 
@@ -34,18 +38,27 @@ Or download it from this link: [test.sketch](http://code.pixel2html.com/recruiti
 Ensure that the elements work and display correctly in the following browsers 
 and OS devises:
 
+#### Desktop
+
 - Firefox       (latest version)
 - Google Chrome (latest version)
 - Safari        (latest version)
 - Microsoft Edge
 - Internet Explorer 11
 
+#### Mobile
+
 - Safari (iOS 9.0)
 - Chrome (Android 5.0)
 
 ## Project delivery structure
 
+Aside from whatever tool you use for coding this test the final deliverables 
+should have the following structure.
+
 ~~~
+├── .
+├── ..
 ├── dist
 |   ├── images           # Images
 |   ├── stylesheets      # Global styles
@@ -56,24 +69,26 @@ and OS devises:
 |   |   └── main.min.js  # Minified version of the main javascript file
 |   ├── fonts            # Fonts 
 |   ├── index.html       # Screen template
+├── ..
+├── ..
+├── ..
 ~~~
 
-## The test needs to answer this questions
+## Before you submit the test needs to answer this questions
 
-1. Are all required pages / states developed?
-2. Are all requirements met? 
-3. Do pages display and work correctly in supported browsers? 
-4. Do pages display and work correctly in supported OS devices? 
-5. Is reasonable pixel precision achieved?
-6. Do pages work without JavaScript errors?
-
+1. Are all requirements met? 
+2. Do the page display and work correctly in all supported browsers? 
+3. Do the page display and work correctly in all supported OS devices? 
+4. Is reasonable pixel precision achieved?
+5. Do the page work without JavaScript errors?
 
 ## Deliverables
 
-- The files should be pushed to your Github account, if you don't have one you can
-follow this link: https://github.com/join to get one, it's free!
+- The files should be pushed to your Github account, if you don't have one you 
+can follow this link: https://github.com/join to get one, it's free!
 - Cross-check all the details before pushing the final code for review.
-- Track the time you spend (You can use [TOGGL](https://www.toggl.com/) for this, be honest :D)
+- Track the time you spend, we recommend you [TOGGL](https://www.toggl.com/) for 
+this. Be honest :D
 
 ## Links
 
@@ -89,7 +104,7 @@ Here are some links that might be helpful:
 
 Fear not! You can send us an email to Diego [(diego@pixel2html.com)](mailto:diego@pixel2html.com)
 or Juan Manuel [(jm@pixel2html.com)](mailto:jm@pixel2html.com) with the subject: 
-_'Front-end Test Project'_.
+**'Front-end Test Project'**.
 
 Happy Coding!
 
