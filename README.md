@@ -38,7 +38,9 @@ You can either clone this repository:
 $ git clone http://code.pixel2html.com/recruiting/frontend-developer-test.git
 ~~~
 
-Or download it from this link: [test.sketch](http://code.pixel2html.com/recruiting/frontend-developer-test/blob/master/assets/test.sketch)
+Or download the design files directly from this links:
+
+- Sketch file: [test.sketch](http://code.pixel2html.com/recruiting/frontend-developer-test/blob/master/assets/test.sketch)
 
 ## Supported browsers
 
@@ -81,7 +83,7 @@ should have the following structure.
 ├── ..
 ~~~
 
-## Before you submit the test needs to answer this questions
+## Before you submit the test make sure your deliverables answers to this questions
 
 1. Are all requirements met? 
 2. Do the page display and work correctly in all supported browsers? 
