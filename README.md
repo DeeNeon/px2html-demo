@@ -14,7 +14,8 @@ The font used is for the whole site is
 2. The site should be retina compatible.
 3. Do not use any image, everything should be made using CSS3. The only images 
 allowed are logos or photos.
-4. We recommend you to use [Slick.js](http://kenwheeler.github.io/slick/) for 
+4. The header should be stick to the top of the viewport.
+5. We recommend you to use [Slick.js](http://kenwheeler.github.io/slick/) for 
 any carousel on the page. If you want to use another library because you think
 it's better you have to explain us why :)
 
