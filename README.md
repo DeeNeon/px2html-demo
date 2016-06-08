@@ -11,12 +11,19 @@ The font used is for the whole site is
 ## Requirements
 
 1. Make it responsive by your best judgement.
-2. Use [Slick.js](http://kenwheeler.github.io/slick/) for any carousel on the page.
+2. The site should be retina compatible.
+3. Do not use any image, everything should be made using CSS3. The only images 
+allowed are logos or photos.
+4. We recommend you to use [Slick.js](http://kenwheeler.github.io/slick/) for 
+any carousel on the page. If you want to use another library because you think
+it's better you have to explain us why :)
 
 ### Nice to have
 
-Use [BEM methodology](https://en.bem.info/methodology/) for naming convention 
-and break the site into modules.
+At Pixel2HTML we love the [BEM methodology](https://en.bem.info/methodology/). 
+It helps to increase code reliability and reusable components. If you haven't 
+heard anything about BEM we strongly recommend you to dig more about it. This 
+test it's a great opportunity for giving it a try!
 
 ### Bonus tasks
 
@@ -104,7 +111,7 @@ Here are some links that might be helpful:
 
 Fear not! You can send us an email to Diego [(diego@pixel2html.com)](mailto:diego@pixel2html.com)
 or Juan Manuel [(jm@pixel2html.com)](mailto:jm@pixel2html.com) with the subject: 
-**'Front-end Test Project'**.
+**'Front-end Test Project'.
 
 Happy Coding!
 
