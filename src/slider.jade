@@ -1,0 +1,23 @@
+//CSS : _body.styl
+- var imagesPath = "assets/images/";
+mixin slide()
+  .slide
+    h3 Powerful Extensions
+    p This article is floated online with an aim to help you find the best dvd printing solution. Dvd printing is an important feature
+    a(href="#!") Learn more
+      span.glyphicon.glyphicon-chevron-right
+
+.sliderWrapper.row
+  img.img-responsive.hidden-xs(src=imagesPath+"slide1.png")
+  .slider
+    ul
+      li
+        +slide()
+      li
+        +slide()
+      li
+        +slide()
+      li
+        +slide()
+      li
+        +slide()

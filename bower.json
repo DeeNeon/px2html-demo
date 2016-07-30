@@ -1,0 +1,8 @@
+{
+  "name": "pixel2html-px2html-px2html-demo",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.*",
+    "jquery": "~2.1.*"
+  }
+}

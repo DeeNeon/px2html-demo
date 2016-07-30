@@ -1,0 +1,223 @@
+/* iPhone 6 */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
+  .container
+    margin-top 9em
+
+  .body-wrapper
+    margin-top 0
+
+  .topText
+    h2
+      font-size 1.5em
+    p
+      width 17em
+    img
+      margin-bottom 1.5em
+
+  ul.features
+    margin-bottom 1em
+    font-size .75em
+    .col-sm-4:nth-child(2)
+      padding 0
+    h4
+      font-size 1em
+    li
+      display inline-block
+      text-align center
+      &:last-child
+        padding-left 5px
+      svg
+        width 100%
+        margin-right .5em
+
+  .header
+  .inner
+    width 100%
+    nav
+      padding 0
+      display flex
+      justify-content space-around
+      a
+        float left
+        margin 0
+  &.header-shrink
+    h1
+      font-size 2em
+    nav
+      a
+        font-size 1em
+
+  .header h1
+    margin 0 auto
+    text-align center
+
+  .header h1,
+  .header nav a
+    line-height 60px
+
+  .header.header-shrink h1,
+  .header.header-shrink nav a
+    line-height 40px
+
+  .sliderWrapper
+    margin-bottom 2em
+    .slide
+      padding 0 4em
+      p
+        width 17em
+
+  #pricing-table
+    padding 0 1em
+    .plan
+      padding 1em .5em
+      margin-bottom 2em
+      .plan-header
+        font-size 1.5em
+        padding-bottom .5em
+      .plan-price
+      .plan-perks
+        padding 0 2em 1.5em
+      .plan-footer
+        font-size 1.5em
+
+  .unslider-arrow
+    top 3em
+    &.next
+      left 90%
+    &.prev
+      left 10px
+      display inline-block
+  .unslider-nav
+    ol
+      padding 2em 8em 0
+      width 100%
+
+  .pricing
+    center
+      padding 2em 0
+    p:first-child
+      width 17em
+
+  .portfolio
+    .button-container
+      margin 3em 0 3em
+    span
+      p
+        width 18em
+    .trusted
+      margin 0 auto
+    ul.brands
+      margin 0 0 2em
+      padding 0
+      li
+        display inline-block
+        width 33%
+        margin-top 1em
+      svg
+        width 100%
+    h1
+      font-size 1.4em
+      margin-top 2em
+
+  footer
+    padding 1em
+    .description
+      margin-bottom 1em
+      p
+        line-height 1em
+    ul.list
+      a
+        line-height 1em
+
+    .lang
+      ul
+        font-size .75em
+        padding 0 1em 0 1.5em
+
+
+@media screen and (min-device-width: 667px)
+  .topText
+    h2
+      font-size 2.5em
+    p
+      width 30em
+
+  .sliderWrapper
+    .slide
+      p
+        width 33em
+
+  ul.features
+    h4
+      font-size 1.5em
+      margin-bottom .2em
+    p
+      font-size 1.2em
+
+  .pricing
+    p:first-child
+      width 33em
+
+  .portfolio
+    h1
+      font-size 2.5em
+    span
+      p
+        width 33em
+
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)
+  .sliderWrapper
+    img
+      width 50%
+
+  .pricing
+    h2
+      font-size 4em
+    p
+      font-size 1.5em
+
+  #pricing-table
+    padding 0 10%
+
+  ul.brands
+    svg
+      width 100%
+
+  .unslider-nav
+    ol
+      padding-left 0
+
+  .unslider-arrow.next
+    left 85%
+
+  .sliderWrapper
+    .slide
+      padding 5em 0 3em
+
+  footer
+    padding 4em
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+  footer
+    font-size .75em
+    h4
+      font-size 1em
+
+  .unslider-nav
+    ol
+      padding-left 0
+
+  #pricing-table
+    .plan
+      font-size .75em
+
+  .sliderWrapper
+    img
+      width 50%
+    .slide
+      padding 5em 0 3em
+
+  .unslider-arrow.next
+    left 85%
