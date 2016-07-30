@@ -1,0 +1,36 @@
+- var imagesPath = "assets/images/";
+mixin list(args)
+  ul.list
+    li
+      h4= args[0]
+    li
+      a(href="#!")= args[1]
+    li
+      a(href="#!")= args[2]
+    li
+      a(href="#!")= args[3]
+
+.row
+  footer
+    .description.col-sm-5.col-xs-12
+      img.svg(src=imagesPath+"icon4.svg")
+      p
+        | Huge modern UI Kit containing 130+ terrific components in 11 popular categories. Each component is fully.
+
+    .col-sm-7.col-xs-12
+      .row
+        .col-sm-3.col-xs-3
+          +list(['Support', 'About Us', 'Press', 'FAQ'])
+
+        .col-sm-3.col-xs-3
+          +list(['Business', 'Home', 'Mobile', 'Pricing'])
+
+        .col-sm-3.col-xs-3
+          +list(['Community', 'Developer', 'Referrals', 'Forum'])
+
+        .col-sm-3.lang.col-xs-3
+          span.hidden-xs
+            img.svg(src=imagesPath+"globe.svg")
+          ul
+            li English (UK)
+          span.glyphicon.glyphicon-triangle-bottom

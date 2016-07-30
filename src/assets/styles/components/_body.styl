@@ -1,0 +1,262 @@
+//topbanner.jade
+.topText
+  text-align center
+  h2
+    font-weight 400
+    font-size 2.5em
+  p
+    font-weight 300
+    width 29em
+    font-size 1.2em
+    margin .75em 0 2.5em
+    display inline-block
+  img
+    margin-bottom 3.5em
+
+ul.features
+  padding 0
+  margin-bottom 4em
+  display flex
+  h4
+    font-weight 400
+    line-height 1em
+    margin-bottom 1em
+  li
+    display flex
+    svg
+      margin-right 1.5em
+    div
+      p
+        font-weight 300
+
+//slider.jade
+.sliderWrapper
+  display flex
+
+  .slide
+    font-weight 300
+    padding 5em 10% 3em
+    p
+      color $lightGray
+      margin 2em 0
+      width 22em
+    a
+      color $blueText
+
+.unslider
+  overflow auto
+  margin 0
+  padding 0
+  position relative
+  a
+    text-decoration none
+
+.unslider-wrap
+  position relative
+  &.unslider-carousel
+    & > li
+      float left
+
+.unslider-vertical
+  & > ul
+    height 100%
+  li
+    float none
+    width 100%
+
+.unslider-fade
+  position relative
+  .unslider-wrap
+    li
+      position absolute
+      left 0
+      top 0
+      right 0
+      z-index 8
+      &.unslider-active
+        z-index 10
+
+.unslider li,.unslider ol,.unslider ul
+  margin 0
+  padding 0
+  border none
+
+.unslider-arrow
+  position absolute
+  left 0
+  top 5em
+  z-index 2
+  cursor pointer
+  color $lightGray
+  font-size 2em
+  &.prev
+    display none
+  &.next
+    left 90%
+
+.unslider-nav
+  ol
+    text-align center
+    float left
+    padding-left 10%
+    li
+      display inline-block
+      width .5em
+      height .5em
+      margin 0 4px 2px
+      background #ddd
+      border-radius 15px
+      overflow hidden
+      text-indent -999em
+      border 1px solid #fff
+      cursor pointer
+      transition width .3s, height .3s
+      &:hover
+        width .75em
+        height .75em
+        background #358ED7
+        cursor default
+      &.unslider-active
+        margin 0
+        width .75em
+        height .75em
+        background #358ED7
+        cursor default
+
+//pricing.jade
+.pricing
+  background-color #F9F9F9
+  font-weight 300
+  h2
+    font-weight 300
+  center
+    padding 4em 0
+  p:first-child
+    width 30em
+
+#pricing-table
+  z-index 97
+  margin 0 auto
+  text-align center
+  padding 0 10%
+  .plan
+    cursor pointer
+    background #fff
+    color $lightGray
+    padding 20px
+    float left
+    transition top 0.4s ease
+    top 0
+    &:hover
+      top -1em
+    &:nth-child(2)
+      box-shadow inset 3px 0 5px -5px $lightGray, inset -3px 0 5px -5px $lightGray
+      z-index 2
+    label
+      display block
+    .plan-header,
+    .plan-price
+      padding 0 0 1.5em
+      box-shadow 0 5px 3px -5px #cecece
+    .plan-header
+      h3
+        text-transform uppercase
+        color $blueText
+    .plan-price
+      .freq
+        margin 0
+        font-size .75em
+      .desc
+        margin-top 1em
+      label
+        color black
+        margin .5em 0 0
+        font-size 3em
+        font-weight 400
+    .plan-perks
+      margin-top 1em
+      padding-left 1.5em
+      text-align left
+      li:before
+        content " "
+        margin 2em 2em 0 0
+        float left
+      li.check:before
+        content "\e013"
+        font-family 'Glyphicons Halflings'
+        font-size 1em
+        float left
+        margin-top 4px
+        margin-left -17px
+        color $lightGreen
+
+    .plan-footer
+      margin-top 1em
+      border-radius 6px
+      a
+        border-radius 6px
+        border 1px solid $lightGray
+        color $blueText
+        width 100%
+        display block
+        padding .5em
+
+  .suggested
+    background $blueText
+    .plan-header
+      h3
+        color white
+      div
+        color #86cce2
+    .plan-price,
+    .plan-perks
+      color #86cce2
+    .plan-price
+      label
+        color white
+    .plan-footer
+      background $lightGreen
+      &:hover
+        color #34EE5A
+      a
+        border 1px solid transparent
+        color white
+  ul
+    padding 0
+  li
+    padding 10px 0
+
+.portfolio
+  z-index 98
+  padding 0 0
+  background-color #5E6977
+  margin-top -6em
+  h1
+    font-weight 400
+    color white
+  span
+    p
+      width 29em
+      color $lightGray
+
+  .button-container
+    margin 3em auto 4em
+
+  .trusted
+    margin 1.5em auto
+    color $lightGray
+    font-size 1em
+
+  .brands
+    padding 0 10%
+    margin 2.5em auto 4em
+
+  svg
+    width 100%
+  svg path
+    width 100%
+    transition fill .4s
+    fill $lightGray
+  svg:hover path
+    fill white
+

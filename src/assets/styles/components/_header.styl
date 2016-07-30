@@ -1,0 +1,52 @@
+.header
+  position fixed
+  top 0
+  left 0
+  width 100%
+  background white
+  z-index 999
+  overflow hidden
+  transition height 0.3s
+  box-shadow: 0 5px 3px -5px #cecece
+  .inner
+    width 90%
+    max-width 69em
+    margin 0 auto
+  h1
+    color #333
+    letter-spacing 2px
+    font-size 2em
+    font-weight 500
+    margin 0
+    float left
+    sup
+      font-size .5em
+      top -1.2em
+  nav
+    float left
+    a
+      color #aaa
+      font-weight 400
+      margin 0 0 0 20px
+      font-size 1em
+      &:hover
+        color #333
+  &.header-shrink
+    height 80px
+    h1
+      font-size 1.5em
+
+.header h1,
+.header nav
+  display inline-block
+  position relative
+
+.header h1,
+.header nav a
+  line-height 100px
+  transition all 0.3s
+
+.header.header-shrink h1,
+.header.header-shrink nav a
+  line-height 80px
+

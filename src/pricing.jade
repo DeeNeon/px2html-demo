@@ -1,0 +1,55 @@
+mixin plan(plan, subheader, price, freq, desc, perks)
+  .plan.col-sm-4.col-xs-12
+    .plan-header
+      h3= plan
+      div= subheader
+    .plan-price
+      label= price
+      div.freq= freq
+      div.desc= desc
+    ul.plan-perks
+      each perk in perks
+        if perk.check
+          li.check
+            |  #{perk.check}
+        else
+          li
+            | #{perk}
+
+    .plan-footer
+      a(href="#!") Get started
+
+.pricing.row
+  center.col-sm-12
+    h2 Simple Pricing
+    span
+      p
+        | It seems from the moment you begin to take your love of astronomy seriously, the thing that is on your mind is what kind.
+
+  #pricing-table.row
+    +plan('basic', 'For a taste our product', '$0', 'always free', 'How to boost the design and developing process with help of four paws.',
+          [{check:'2 Gb of space'}, {check:'30 days of file recovery'}, {check:'MS Office 365 integration'}, 'Unlimited third-party integrations', 'Remote wipe'])
+
+    +plan('professional', 'Make individual product', '$8.99', 'per month', 'Computer War Games How To Estimate Decisions Made By C C Trainees',
+    [{check: '8 Gb of space'}, {check: '60 days of file recovery'}, {check: 'MS Office 365 integration'}, {check:'Unlimited third-party integrations'}, 'Remote wipe'])
+
+    +plan('business', 'For big companies', '$18.99', 'per month', 'Direct Mail Advertising How I Made 47 325 In 30 Days By Mailing.',
+    [{check: '30 Gb of space'}, {check: '90 days of file recovery'}, {check: 'MS Office 365 integration'}, {check:'Unlimited third-party integrations'}, {check:'Remote wipe'}])
+
+
+.portfolio.row
+  center.col-sm-12
+    h1 The Ultimate Pasta Length Editor
+    span
+      p
+        | How to boost the design and developing process with a little help of four paws. True story by Snoop Dogg.
+
+    div.button-container
+      a.greenBtn(href="#!") Try it for Free
+
+    div.trusted Superpasta trusted and used by multiple companies
+
+    ul.row.brands
+      each src in ['evernote','marvel','brazzers','motorola', 'netflix', 'adobe']
+        li.col-sm-2
+          img.svg(src="assets/images/"+src+".svg")
