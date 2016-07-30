@@ -1,6 +1,7 @@
 node_modules
-dist
 .tmp
 bower_components
 src/assets/vendor
 /releases/*
+.idea
+releases/
